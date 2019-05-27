@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="390dp"
+        android:layout_height="638dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/bgapp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="-7dp" />
+    <ImageView
+        android:layout_width="98dp"
+        android:layout_height="105dp"
+        android:src="@drawable/ss"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="268dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:background="@drawable/Grow-PNG-Background-Image"/>
+    <Button
+        android:layout_width="292dp"
+        android:layout_height="62dp"
+        android:background="@drawable/btnstart"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="428dp" />
+
+
+</android.support.constraint.ConstraintLayout>
